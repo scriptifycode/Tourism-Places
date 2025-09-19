@@ -1,0 +1,270 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img
+          class="nav-logo"
+          width="50"
+          src="https://static.vecteezy.com/system/resources/thumbnails/041/041/174/small_2x/tourism-logo-icon-brand-identity-sign-symbol-vector.jpg"
+          alt="img"
+        />
+        <h1 class="logo-head">Scriptifycode</h1></a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Favorites
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Mountains</a>
+              <a class="dropdown-item" href="#">Naturals</a>
+              <a class="dropdown-item" href="#">Green Trees</a>
+              <a class="dropdown-item" href="#">Biggest Animals</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#"><del>Disabled</del></a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+    <div id="sectionHomePage">
+      <div class="bg-tourism-container d-flex flex-column justify-content-end">
+        <div class="">
+          <div class="bg-home-card-container bg-light">
+            <div class="home-text-container">
+              <h1 class="home-main-head text-center p-2">Tourism</h1>
+              <p class="home-description text-center">
+                Discover the beauty and diversity of destinations around the
+                world. Whether you seek adventure, relaxation, or cultural
+                experiences, tourism opens the door to unforgettable memories
+                and new perspectives.
+              </p>
+            </div>
+            <div class="button-style text-center">
+              <button
+                class="home-button btn-info text-center"
+                onclick="display('sectionFavotivePage')"
+              >
+                Get Start
+              </button>
+              <button
+                class="home-sign-up-button btn-info"
+                onclick="display('sectionLoginPage')"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sectionLoginPage">
+      <div class="sign-up-bg-container text-center">
+        <div class="sign-up-section">
+          <div class="sign-up-card-container bg-info">
+            <label for="" class="">User Name: </label>
+            <input
+              class="input-email"
+              type="email"
+              name=""
+              value="example@gmail.com"
+              id="text/number"
+            />
+            <label for="" class="pass">Password :</label>
+            <input
+              class="input-password"
+              type="password"
+              name=""
+              value="000000000"
+              id="number/@/"
+              aria-hidden="true"
+            />
+            <div class="loging-button-style">
+              <button class="btn-info btn btn- login-button">Login</button>
+              <button class="btn-primary login-button">Sign Up</button>
+            </div>
+            <p class="loging-caption">Forget password</p>
+            <p class="loging-caption" onclick="display('sectionHomePage')">
+              Go Back
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sectionFavotivePage">
+      <div class="favorite-place-bg-container">
+        <div class="favoriye-place-section">
+          <h1 class="favorite-place-heading">Favorate Place</h1>
+          <div class="favorite-place-card-container d-flex">
+            <img
+              class="favorite-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/1280px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg"
+              alt="img"
+            />
+            <div class="">
+              <h1 class="favorite-tajmahal-heading">Taj Mahal</h1>
+              <p class="favorite-tajmahal-caption">
+                The Taj Mahal was designated as a UNESCO World Heritage Site in
+                1983 for being "the jewel of Islamic art in India and one of the
+                universally admired ..
+              </p>
+              <div class="taj-card-style-button">
+                <button class="btn-info taj-card-button">Click imge</button>
+                <button class="btn-info taj-card-button">Click Video</button>
+              </div>
+            </div>
+          </div>
+          <div class="favorite-place-card-container d-flex">
+            <img
+              class="favorite-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/1280px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg"
+              alt="img"
+            />
+            <div class="">
+              <h1 class="favorite-tajmahal-heading">Taj Mahal</h1>
+              <p class="favorite-tajmahal-caption">
+                The Taj Mahal was designated as a UNESCO World Heritage Site in
+                1983 for being "the jewel of Islamic art in India and one of the
+                universally admired ..
+              </p>
+              <div class="taj-card-style-button">
+                <button class="btn-info taj-card-button">Click imge</button>
+                <button class="btn-info taj-card-button">Click Video</button>
+              </div>
+            </div>
+          </div>
+          <div class="favorite-place-card-container d-flex">
+            <img
+              class="favorite-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/1280px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg"
+              alt="img"
+            />
+            <div class="">
+              <h1 class="favorite-tajmahal-heading">Taj Mahal</h1>
+              <p class="favorite-tajmahal-caption">
+                The Taj Mahal was designated as a UNESCO World Heritage Site in
+                1983 for being "the jewel of Islamic art in India and one of the
+                universally admired ..
+              </p>
+              <div class="taj-card-style-button">
+                <button class="btn-info taj-card-button">Click imge</button>
+                <button class="btn-info taj-card-button">Click Video</button>
+              </div>
+            </div>
+          </div>
+          <div class="favorite-place-card-container d-flex">
+            <img
+              class="favorite-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/1280px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg"
+              alt="img"
+            />
+            <div class="">
+              <h1 class="favorite-tajmahal-heading">Taj Mahal</h1>
+              <p class="favorite-tajmahal-caption">
+                The Taj Mahal was designated as a UNESCO World Heritage Site in
+                1983 for being "the jewel of Islamic art in India and one of the
+                universally admired ..
+              </p>
+              <div class="taj-card-style-button">
+                <button class="btn-info taj-card-button">Click imge</button>
+                <button class="btn-info taj-card-button">Click Video</button>
+              </div>
+            </div>
+          </div>
+          <div class="favorite-place-card-container d-flex">
+            <img
+              class="favorite-img"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/1280px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg"
+              alt="img"
+            />
+            <div class="">
+              <h1 class="favorite-tajmahal-heading">Taj Mahal</h1>
+              <p class="favorite-tajmahal-caption">
+                The Taj Mahal was designated as a UNESCO World Heritage Site in
+                1983 for being "the jewel of Islamic art in India and one of the
+                universally admired...
+              </p>
+              <div class="taj-card-style-button">
+                <button class="btn-info taj-card-button">Click imge</button>
+                <button class="btn-info taj-card-button">Click Video</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"
+    ></script>
+  </body>
+</html>

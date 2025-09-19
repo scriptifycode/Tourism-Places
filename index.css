@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-logo {
+    border-radius: 50%;
+}
+
+.logo-head {
+    font-size: 10;
+}
+
+.bg-tourism-container {
+    background-color: rgb(19, 231, 161);
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-home-card-container {
+    background-color: rgb(35, 233, 233);
+    border-radius: 13px;
+}
+
+.home-text-container {
+    
+}
+
+.home-main-head {
+    font-size: 25px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.home-description {
+    font-size: 10px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.button-style {
+    padding: 5px;
+}
+
+.home-button {
+    background-color: rgb(7, 226, 211);
+    text-align: center;
+    color: black;
+    font-size: 13px;
+    font-family: "roboto";
+    border-radius: 7px;
+    font-weight: 550;
+    border: none;
+    width: 85px;
+    padding-top:7px;
+}
+
+.home-sign-up-button {
+    background-color: rgb(7, 226, 211);
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+    font-family: "roboto";
+    border-radius: 7px;
+    border: none;
+    font-weight: 600;
+    width: 85px;
+    padding-top:7px;
+}
+
+.favorite-place-card-container {
+    background-color: aquamarine;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+.favorite-img {
+    width: 120px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.favorite-tajmahal-heading {
+    font-size: 18px;
+    padding-top: 12px;
+    padding-left: 12px;
+    font-weight: 600;
+    font-family: "roboto";
+}
+
+.favorite-tajmahal-caption {
+    font-size: 13px;
+    font-family: "roboto";
+    font-weight: 400;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.taj-card-style-button {
+    padding-left: 12px;
+}
+
+.taj-card-button {
+    background-color: azure;
+    border: none;
+    font-size: 13px;
+    width: 85px;
+    border-radius: 7px;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-family: "roboto";
+}
+
+.sign-up-bg-container {
+}
+
+.sign-up-section {}
+
+
+.sign-up-card-container {
+    border-width: 5px;
+    padding: 200px;
+    margin: 35px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-right: 30px;
+    padding-left: 0px;
+    border-radius: 32px;
+}
+
+.input-email {
+    border-radius: 6px;
+}
+
+.input-password {
+    border-radius: 6px;
+    padding: 3;
+}
+
+.pass {
+    padding: 6;
+}
+
+.loging-button-style {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.login-button {
+    width: 85px;
+    border-radius: 9px;
+    padding: 3px;
+    background-color: azure;
+    color: black;
+    border: none;
+    margin: 5px;
+    font-size: 13;
+    font-family: "roboto";
+}
+.login-button {
+    width: 85px;
+    border-radius: 9px;
+    padding: 3px;
+    background-color: azure;
+    color: black;
+    border: none;
+    margin: 0 5px;
+    font-size: 13;
+    font-family: "roboto";
+}
+
+.loging-caption {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
